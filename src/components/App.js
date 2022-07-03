@@ -2,12 +2,12 @@ import React from 'react'
 import '../styles/App.css';
 import {useState,useEffect} from 'react';
 export default function App() {
-
-
-  return (
-    const [sliderVal,setSliderVal]=useState(16);
+ const [sliderVal,setSliderVal]=useState(16);
     const [limitWord,setLimitWord]=useState(50);
     const [word,setWords]=useState("");
+
+  return (
+   
     
   
     <div id="main">
