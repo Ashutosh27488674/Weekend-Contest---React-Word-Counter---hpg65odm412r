@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/App.css';
 import {useState,useEffect} from 'react';
-const App = () => {
+export default function App() {
 
 
   return (
@@ -48,5 +48,3 @@ const App = () => {
   )
 }
 
-
-export default App;
