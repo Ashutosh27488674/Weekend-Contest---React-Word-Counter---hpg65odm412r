@@ -34,7 +34,8 @@ export default function App() {
                           value={words}
                           style={{fontSize:sliderVal}}
                           onChange={(e)=>setWords(e.target.value)}
-                          maxLength={limitWord}
+                          maxLength={limitWord} >
+                           {words}
 </textarea>
           </div> 
 <div id="word-counter">
